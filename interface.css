@@ -5,19 +5,48 @@
 	text-decoration:none;
 	font-family:'Poppins', sans-serif;
 }
-body {
-	display:flex;
+#p {
+	margin-top:12px;
+	color:#582900;
+	font-size:40px;
+	border-radius:10px;
+	display:block;
+	font-weight:bold;
+	text-align:center;
+	font-family:Daun Penh;
+}
+header {
+	color:#582900;
+}
+body { 
+	display: flex;
 	align-items:center;
 	justify-content:center;
 	min-height:100vh;
-	background:#f7f7f7;
+	background-image: url("journalisme.jpg");  /* Utilise l'image comme arrière-plan */
+	background-size: cover;  /* Ajuste l'image pour couvrir tout le corps */
+background-color: #efeee8;
+}
+#lab {
+	color: #3a3a39;
 }
 .wrapper {
-	background:#fff;
-	width:450px;
-	border-radius:16px;
+	display:flex;
+	float:right;
+	width: 60%;
+	background-color: #efeee8;	
+	height:695px;
 	box-shadow:0 0 128px 0 rgba(0,0,0,0.1),
 			   0 32px 64px -48px rgba(0,0,0,0.5);
+}
+#img {
+	
+	
+	height:695px;
+	width: 40%;
+	border:1px solid white;
+	display:flex;
+	float:left;
 }
 /* Signup form css code */
 .form {
@@ -26,8 +55,9 @@ body {
 .form header {
 	font-size:25px;
 	font-weight:600;
-	padding-bottom:10px;
+	padding-bottom:30px;
 	border-bottom:1px black #e6e6e6;
+	color: #3a3a39;
 }
 .form form {
 	margin:20px 0;
@@ -80,7 +110,7 @@ form .name-details .field:last-child {
 	border:none;
 	font-size:17px;
 	font-weight:400;
-	background:#333;
+	background:#3a3a39;
 	color:#fff;
 	border-radius:5px;
 	cursor:pointer;
@@ -314,4 +344,10 @@ form .name-details .field:last-child {
 	font-size: 19px;
 	cursor: pointer;
 	border-radius: 0 5px 5px 0;
+}
+
+.signup{
+	
+	margin-top: 70px;
+	margin-left: 170px;
 }

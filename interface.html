@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,39 +11,40 @@
 	<link rel="stylesheet" href="interface.css">
 </head>	
 <body>
+	<img id="img" src="jou.jpg"/>
 	<div class="wrapper">
 		<section class="form signup">
-			<header> Realtime Chat App</header> 
+			<header> Journalist Chat Application</header> 
 			<form action="#">
 				<div class="error-txt"> This is an error message</div>
 				<div class="name-details">
 					<div class="field input">
-						<label>First Name</label>
+						<label id="lab">First Name</label>
 						<input type="text" placeholder="First Name">
 					</div>
 					<div class="field input">
-						<label>Last Name</label>
+						<label id="lab">Last Name</label>
 						<input type="text" placeholder="Last Name">
 					</div>	
 				</div>	
 				<div class="field input">
-					<label>Email adress</label>
+					<label id="lab">Email adress</label>
 					<input type="text" placeholder="Enter your email">
 				</div>					
 				<div class="field input">
-					<label>Password</label>
+					<label id="lab">Password</label>
 					<input type="password" placeholder="Enter new password">
 					<i class="fas fa-eye"></i>
 				</div>	
 				<div class="field image">
-					<label>Select image</label>
+					<label id="lab">Select image</label>
 					<input type="file">
 				</div>	
 				<div class="field button">
 					<input type="submit" value="Continue to chat">
 				</div>					
 			</form>
-			<div class="link">Already signed up? <a href="#"> Login now </a></div>
+			<div class="link" id="lab">Already signed up? <a href="#"> Login now </a></div>
 		</section>
 	</div>
 	<script src="front-end.js" ></script>
