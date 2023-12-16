@@ -23,7 +23,7 @@ body {
 	align-items:center;
 	justify-content:center;
 	min-height:100vh;
-	background-image: url("journalisme.jpg");  /* Utilise l'image comme arrière-plan */
+	  /* Utilise l'image comme arrière-plan */
 	background-size: cover;  /* Ajuste l'image pour couvrir tout le corps */
 background-color: #efeee8;
 }
@@ -350,4 +350,39 @@ form .name-details .field:last-child {
 	
 	margin-top: 70px;
 	margin-left: 170px;
+}
+
+.login{
+	margin-top: 150px;
+	margin-left: 250px;
+}
+
+.chat-area{
+	margin-top: 50px;
+	margin-left: 90px;
+	border-radius: 15px;
+
+}
+.chat-area header{
+	background-color: #8a5a45;
+	color: white;
+}
+.chat-area header img, .chat-area .incoming img, .chat-area .outgoing img{
+	border-radius: 20px;
+}
+
+.chat-area form{
+	background-color: #ffff;
+
+}
+
+.wrapperr{
+	display: flex;
+}
+.wrapperrr{
+	width: 30%;
+	margin-right: 400px;
+}
+.wrapperrr .users {
+	width: 70%;
 }
